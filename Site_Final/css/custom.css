@@ -1,0 +1,631 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+/*INDEX*/
+#index h1.destaque {
+  display: block;
+  background: #fff;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+  max-height:120px;
+  font-size: 20px;
+}
+
+
+
+#index a.destaque:hover{
+  background: var(--color-light);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+#index p {
+  text-align: left;
+
+}
+
+#index a.destaque .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+#index a.destaque .img-container img {
+  max-height: 160px;
+
+}
+#index a.destaque {
+  display: block;
+  background: var(--color-light);
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+  max-height: 400px;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+#index .badge {
+  font-weight: 400;
+}
+
+#index .element-item img {
+  border-radius: 5px;
+  transition: all ease-out 0.2s;
+}
+
+#index .element-item img:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+#index .button-group {
+  margin-bottom: 30px;
+}
+
+#index .button-group button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+}
+
+#index .button-group button + button {
+  margin-left: 30px;
+}
+
+#index .button-group button.active {
+  color: var(--color1);
+}
+#index p{
+  font-weight: 600;
+
+}
+
+#index h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+
+}
+
+#index h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+/*INDEX*/
+/* DTIAJUDA*/
+#dtiajuda p{
+  font-weight: 500;
+
+}
+
+#dtiajuda h1.title {
+  text-transform: uppercase;
+  font-size: 50px;
+
+color: #212529;
+}
+
+#dtiajuda h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#dtiajuda .background{
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  max-height: 600px;
+box-shadow: 0 0px 26px 0 rgba(0, 0, 0, 0.2);
+
+}
+#dtiajuda a{
+  align-self: center;
+
+}
+#dtiajuda h1.subtitle{
+  text-transform: uppercase;
+  font-size: 30px;
+text-align: center;
+color: #212529;
+}
+/* DTIAJUDA*/
+/*SISTEMAS*/
+#sistemas p{
+  font-weight: 500;
+
+}
+
+#sistemas h1.title {
+  text-transform: uppercase;
+  font-size: 50px;
+
+color: #212529;
+}
+
+#sistemas h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#sistemas .background{
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  max-height: 600px;
+  box-shadow: 0 0px 26px 0 rgba(0, 0, 0, 0.2);
+
+}
+#sistemas a{
+  align-self: center;
+
+}
+#sistemas h1.subtitle{
+  text-transform: uppercase;
+  font-size: 30px;
+text-align: center;
+color: #212529;
+}
+/*SISTEMAS*/
+/*SERVIÇOS*/
+#servicos p{
+  font-weight: 500;
+
+
+
+}
+
+#servicos h1.title {
+  text-transform: uppercase;
+  font-size: 50px;
+color: #212529;
+}
+
+#servicos h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#servicos .background{
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+height: 625px;
+  max-width: 600px;
+box-shadow: 0 0px 26px 0 rgba(0, 0, 0, 0.2);
+
+}
+#servicos a{
+  display: block;
+text-align: center;
+max-width: 600px;
+margin-right: 20px;
+
+
+
+}
+#servicos h1.subtitle{
+  text-transform: uppercase;
+  font-size: 30px;
+text-align: center;
+color: #212529;
+}
+#servicos .badge {
+  font-weight: 400;
+}
+
+#servicos .element-item img {
+  border-radius: 5px;
+  transition: all ease-out 0.2s;
+}
+
+#servicos .element-item img:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+}
+
+#servicos .button-group {
+  margin-bottom: 30px;
+}
+
+#servicos .button-group button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+}
+
+#servicos .button-group button + button {
+  margin-left: 30px;
+}
+
+#servicos .button-group button.active {
+  color: var(--color1);
+}
+#servicos a.destaque .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+#servicos a.destaque .img-container img {
+  max-height: 160px;
+
+}
+
+#servicos a.background:hover{
+  background: var(--color-light);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+#servicos p {
+  text-align: left;
+  margin-left: 20px;
+}
+#servicos h5{
+  text-align: center;
+  font-size: 30px;
+}
+
+/*SERVIÇOS*/
+/*Solicitaçoes*/
+#solicitacoes p{
+  font-weight: 500;
+
+}
+
+#solicitacoes h1.title {
+  text-transform: uppercase;
+  font-size: 50px;
+
+color: #212529;
+}
+
+#solicitacoes h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#solicitacoes .background{
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  max-height: 600px;
+box-shadow: 0 0px 26px 0 rgba(0, 0, 0, 0.2);
+
+}
+#solicitacoes a{
+  align-self: center;
+
+}
+#solicitacoes h1.subtitle{
+  text-transform: uppercase;
+  font-size: 30px;
+text-align: center;
+color: #212529;
+}
+
+/*Solicitaçoes*/
+/*Telefones*/
+#telefones h1.destaque {
+  display: block;
+  background: #fff;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+  max-height:120px;
+  font-size: 20px;
+}
+
+
+
+#telefones a.destaque:hover{
+  background: var(--color-light);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+#telefones p {
+  text-align: center;
+
+}
+
+#telefones a.destaque .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+#telefones a.destaque .img-container img {
+  max-height: 160px;
+
+}
+#telefones a.destaque {
+  display: block;
+  background: var(--color-light);
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+  height: 425px;
+    max-width: 600px;
+  box-shadow: 0 0px 26px 0 rgba(0, 0, 0, 0.2);
+background-color: #fff;
+
+}
+#telefones .badge {
+  font-weight: 400;
+}
+
+#telefones .element-item img {
+  border-radius: 5px;
+  transition: all ease-out 0.2s;
+}
+
+#telefones .element-item img:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+#telefones .button-group {
+  margin-bottom: 30px;
+}
+
+#telefones .button-group button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+}
+
+#telefones .button-group button + button {
+  margin-left: 30px;
+}
+
+#telefones .button-group button.active {
+  color: var(--color1);
+}
+#telefones p{
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
+
+#servicos h1.title {
+  text-transform: uppercase;
+  font-size: 50px;
+color: #212529;
+}
+
+#telefones h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#telefones h5 {
+  text-transform: uppercase;
+  font-size: 35px;
+color: #212529;
+}
+/*Telefones*/
+/*contato*/
+#contato p{
+  font-weight: 500;
+
+}
+
+#contato h1.title {
+  text-transform: uppercase;
+  font-size: 50px;
+
+color: #212529;
+}
+
+#contato h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#contato .background{
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  max-height: 600px;
+  max-width: 400px;
+  box-shadow: 0 0px 26px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+#contato a{
+  align-self: center;
+
+}
+#contato h1.subtitle{
+  text-transform: uppercase;
+  font-size: 30px;
+text-align: center;
+color: #212529;
+}
+/*contato*/
+/*ramais*/
+#tabela {
+
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+#tabela td, #tabela th {
+  border: px solid #ddd;
+  padding: 8px;
+}
+
+#tabela tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabela tr:hover {background-color: #ddd;}
+
+#tabela th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--color);
+  color: white;
+    font-size: 20px;
+
+}
+#tabela td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  font-size: 20px;
+
+
+
+}
+#th1 {
+  border-radius: 5px 0 0 0;
+}
+#th2{
+    border-radius: 0 5px 0 0;
+}
+#ramais .background{
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  max-height: 10000px;
+box-shadow: 0 0px 26px 0 rgba(0, 0, 0, 0.2);
+
+}
+#ramais .header{
+  display: block;
+  background: var(--color);
+  border-radius: 5px 5px 0 0;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  max-height: 50px;
+
+}
+#ramais p1, p2, p3{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--color);
+  color: white;
+
+}
+
+/*ramais*/
+/*telefonesM*/
+#tabela {
+
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+#tabela td, #tabela th {
+  border: px solid #ddd;
+  padding: 8px;
+}
+
+#tabela tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabela tr:hover {background-color: #ddd;}
+
+#tabela th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--color);
+  color: white;
+    font-size: 20px;
+
+}
+#tabela td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  font-size: 20px;
+
+
+
+}
+#th1 {
+  border-radius: 5px 0 0 0;
+}
+#th2{
+    border-radius: 0 5px 0 0;
+}
+#telefonesM .background{
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  max-height: 10000px;
+box-shadow: 0 0px 26px 0 rgba(0, 0, 0, 0.2);
+
+}
+#telefonesM .header{
+  display: block;
+  background: var(--color);
+  border-radius: 5px 5px 0 0;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  max-height: 50px;
+
+}
+#telefonesM p1, p2, p3{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--color);
+  color: white;
+
+}

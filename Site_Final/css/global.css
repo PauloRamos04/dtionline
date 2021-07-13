@@ -1,0 +1,102 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+
+a {
+  color: var(--color1);
+
+}
+
+a:hover {
+  color: var(--color1);
+
+}
+body{
+  background-color: #F8F8FF;
+}
+
+
+
+
+.button {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.button-primary {
+  background-color: var(--color);
+  border-color: var(--color);
+}
+
+.button-primary:hover {
+  background-color: var(--color-dark);
+  border-color: var(--color-dark);
+}
+
+.button-primary-outline {
+  border-color: var(--color-dark);
+  color: var(--color-dark);
+}
+
+.button-primary-outline:hover {
+  background-color: var(--color-dark);
+  border-color: var(--color-dark);
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--color);
+}
+#header {
+  width: 100%;
+  background-color: #fff;
+  transition: background ease-out 0.2s;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+#header.active {
+  position: fixed;
+  background: #fff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+
+
+
+}
+
+#header .navbar-collapse {
+  width: auto;
+
+}
+
+#header .nav-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 0;
+  color: #000;
+  border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover {
+  border-bottom: solid 4px var(--color);
+
+}
+#header a.navbar-brand{
+  text-transform: uppercase;
+  padding-left: 0;
+  padding-right: 0;
+  color: #000;
+
+  font-weight: bold;
+  font-size: 26px;
+}
